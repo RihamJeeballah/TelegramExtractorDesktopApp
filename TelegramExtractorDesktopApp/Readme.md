@@ -1,18 +1,25 @@
-Telegram Extractor Desktop App
+# 📱 Telegram Extractor Desktop App
 
 A desktop application and background listener service for extracting, monitoring, and exporting Telegram messages.
 
-✨ Features
-Extract Telegram messages from channels and groups
-Background listener service
-Export extracted data
-User-friendly desktop interface
-Local data processing
-Configurable settings
-📂 Project Structure
-TelegramExtractorDesktopApp
-│
-├── desktop
+---
+
+## ✨ Features
+
+- Extract Telegram messages from channels and groups
+- Run a background listener service
+- Export extracted data
+- Simple desktop interface
+- Local data processing
+- Configurable settings
+
+---
+
+## 📂 Project Structure
+
+```text
+TelegramExtractorDesktopApp/
+├── desktop/
 │   ├── main.py
 │   ├── dashboard_page.py
 │   ├── extractor_module.py
@@ -20,18 +27,10 @@ TelegramExtractorDesktopApp
 │   ├── telegram_worker.py
 │   └── ...
 │
-├── listener_service
+├── listener_service/
 │   ├── server.py
 │   ├── listener_worker.py
 │   ├── Procfile
 │   └── requirements.txt
 │
 └── README.md
-🖥️ Desktop Application
-
-The desktop application provides:
-
-Message extraction
-Dashboard management
-Data export
-Configuration management
