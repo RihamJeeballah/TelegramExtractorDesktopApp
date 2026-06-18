@@ -1,0 +1,13 @@
+PySide6
+telethon
+pandas
+openpyxl
+xlsxwriter
+reportlab
+python-docx
+openai
+python-dotenv
+requests
+sendgrid
+qasync
+asyncio
